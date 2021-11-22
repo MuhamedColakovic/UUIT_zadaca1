@@ -1,0 +1,34 @@
+#naslov{
+	overflow: hidden;
+	height: 70px;
+	width: 100%;
+	background-color: #ede4d1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#Snaslov{
+	float: left;
+	}
+#Snaslov1{
+	float: right;
+}
+#naslovTekst{
+	text-align: center;
+}
+body, html{
+	height: 100%;
+}
+html{
+	background-color: #f5f3ed;
+}
+.osnKartica{
+	position: relative;
+	background-image: linear-gradient(#ebe7d8, #c2b688 );
+	height: 805px;
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 10%; 
+	margin-top: 11%;
+}

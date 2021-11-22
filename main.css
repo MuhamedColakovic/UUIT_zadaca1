@@ -1,0 +1,61 @@
+
+
+
+html{
+	height: 100%;
+	background-image: url("Zenica1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.centar{
+	color: white;
+	position: absolute;
+	top: 25%;
+	left: 51%;
+	transform: translate(-50%, -50%);
+	text-shadow: #2A3D4E 1px 1px, #2A3D4E -2px 0px,#2A3D4E -1px 2px, #2A3D4E -3px 3px, #2A3D4E -4px 4px, #2A3D4E -5px 5px, #2A3D4E -6px 6px, #2A3D4E -7px 7px, #2A3D4E -8px 8px;
+}
+.osnKartica{
+	z-index: 100;
+	background-color: white;
+	height: 405px;
+	width: 40%;
+	border-radius: 10%; 
+}
+#karta1{
+	float: right;
+	margin-top: 330px;
+	margin-right: 5%;
+	box-shadow: 10px 10px  10px gray;
+	background-color:#f0ead3;
+}
+#karta2{
+	float: left;
+	margin-top: 330px;
+	margin-left: 5%;
+	box-shadow: 10px 10px  10px gray;
+	background-color:#f0ead3;
+}
+}
+.navigacija{
+	
+	overflow: hidden;
+}
+#logo{
+	z-index: 0;
+	position: relative;
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10%;
+}
+#naslov1{
+	text-align: center;
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
