@@ -1,12 +1,15 @@
 
 
-
-html{
-	height: 100%;
+body{
+	
 	background-image: url("Zenica1.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+html{
+	height: 100%;
+	
 }
 .centar{
 	color: white;

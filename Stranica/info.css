@@ -17,11 +17,14 @@
 #naslovTekst{
 	text-align: center;
 }
-body, html{
+body{
 	height: 100%;
+	width: 100%;
+
 }
 html{
 	background-color: #f5f3ed;
+	
 }
 .osnKartica{
 	position: relative;
@@ -31,4 +34,15 @@ html{
 	margin-left: 10%;
 	border-radius: 10%; 
 	margin-top: 11%;
+}
+#nazad{
+	height: 50%;
+	margin-left: 5%;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+}
+a, a:active, a:hover{
+	text-decoration: none;
+	color: black;
 }
